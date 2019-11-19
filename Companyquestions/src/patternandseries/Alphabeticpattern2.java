@@ -1,0 +1,23 @@
+package patternandseries;
+import java.util.Scanner;
+public class Alphabeticpattern2 {
+	
+		public static void main(String[] args) {   		
+   Scanner s = new Scanner(System.in);
+		   System.out.println("Enter the rows needed:");
+		   int n = s.nextInt();
+		   int a = 65;
+		   for(int i=0;i<=n;i++)
+		   {
+			   for(int j=0;j<=i;j++)
+			   {
+				   System.out.print((char)(a+j)+" ");
+			   }
+		   
+		   System.out.println();
+	}
+	
+
+}
+
+}
